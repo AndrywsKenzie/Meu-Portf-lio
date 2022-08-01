@@ -24,7 +24,6 @@ import {
   ProjectAreaWrapperColumns,
 } from "./style";
 
-
 export const Home = (): JSX.Element => {
   return (
     <main>
@@ -35,16 +34,25 @@ export const Home = (): JSX.Element => {
               Criando experiências por meio da tecnologia{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
-              de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
+              Sou estudante de programação Full Stack na Kenzie Academy Brasil,
+              participei de diversos projetos resolvendo problemas de alto nível
+              e desenvolvendo hard e soft skills.
             </Text>
             <HeaderButtonsArea>
-              <Button as="a" href="#projetos">
+              <Button as="a" href="#projetos" title="Realizações">
                 Projetos
               </Button>
-              <Button as="a" href="#tecnologias" type="btLink" color="grey5">
+              <Button
+                as="a"
+                href="#tecnologias"
+                type="btLink"
+                color="grey5"
+                title="O que aprendi"
+              >
                 Tecnologias
+              </Button>
+              <Button as="a" href="#sobreMim" title="Sobre mim">
+                Sobre Mim
               </Button>
             </HeaderButtonsArea>
           </HeaderContent>
@@ -72,7 +80,7 @@ export const Home = (): JSX.Element => {
               <Text as="p" type="body1" color="grey2">
                 No linkedIn sempre estou compartilhando meus processos diários
                 para desenvolver esses projetos e estou disposto a trocar
-                algumas ideias por lá
+                algumas ideias por lá.
               </Text>
               <Button
                 type="primary"
@@ -97,6 +105,25 @@ export const Home = (): JSX.Element => {
               <Project />
             </ProjectsAreaContent>
           </ProjectAreaWrapperColumns>
+
+          <StackSection>
+            <HeaderContent id="sobreMim">
+              <Text as="h1" type="heading1" color="grey4">
+                Sobre Mim{" "}
+                <div>
+                  <hr />
+                </div>
+              </Text>
+              <Text type="body1" color="grey6">
+                Sou um amante da tecnologia na qual tenho estudado com todo
+                afinco nos últimos 8 meses em busca de aprendizado e utilização
+                no mercado.
+              </Text>
+              <div>
+                <hr />
+              </div>
+            </HeaderContent>
+          </StackSection>
         </Container>
       </ProjectsArea>
     </main>

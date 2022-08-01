@@ -30,10 +30,10 @@ export const stackData = [
     img: imgStyled,
   },
   {
-    title: "React",
+    title: "React JS",
     img: imgReact,
   },
-  { title: "Vuejs", img: FaVuejs },
+  /*{ title: "Vuejs", img: FaVuejs },
   { title: "TypeScript", img: SiTypescript },
-  { title: "Docker", img: FaDocker },
+  { title: "Docker", img: FaDocker },*/
 ];
