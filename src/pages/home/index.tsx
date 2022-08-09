@@ -108,16 +108,18 @@ export const Home = (): JSX.Element => {
 
           <StackSection>
             <HeaderContent id="sobreMim">
-              <Text as="h1" type="heading1" color="grey4">
+              <Text as="h1" type="heading1">
                 Sobre Mim{" "}
                 <div>
                   <hr />
                 </div>
               </Text>
               <Text type="body1" color="grey6">
-                Sou um amante da tecnologia na qual tenho estudado com todo
-                afinco nos últimos 8 meses em busca de aprendizado e utilização
-                no mercado.
+                <p style={{ color: "blue" }}>
+                  Sou um amante da tecnologia na qual tenho estudado com todo
+                  afinco nos últimos 8 meses em busca de aprendizado e
+                  utilização no mercado.
+                </p>
               </Text>
               <div>
                 <hr />
