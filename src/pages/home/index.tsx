@@ -117,7 +117,7 @@ export const Home = (): JSX.Element => {
               <Text type="body1" color="grey6">
                 <p style={{ color: "blue" }}>
                   Sou um amante da tecnologia na qual tenho estudado com todo
-                  afinco nos últimos 8 meses em busca de aprendizado e
+                  afinco nos últimos 9 meses em busca de aprendizado e
                   utilização no mercado.
                 </p>
               </Text>
