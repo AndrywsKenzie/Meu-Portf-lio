@@ -11,7 +11,7 @@ import {
   NavbarMobileArea,
 } from "./style";
 
-import { FaGithub, FaLinkedinIn, FaBars } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaBars ,FaEnvelope} from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import { Button } from "@/styles/Buttons";
 import { Container } from "@/styles/Global";
@@ -83,6 +83,7 @@ export const NavLinks = (): JSX.Element => {
           as="a"
           aria-label="Github"
           href={`https://github.com/${userData.githubUser}`}
+          title="GitHub"
         >
           <FaGithub />
         </Button>
@@ -95,8 +96,21 @@ export const NavLinks = (): JSX.Element => {
           as="a"
           aria-label="LinkedIn"
           href={`https://www.linkedin.com/in/${userData.linkedinUser}`}
+          title="LinkedIn"
         >
           <FaLinkedinIn />
+        </Button>
+      )}
+      {userData.mailAdress && (
+        <Button
+          type="icon"
+          target="_blank"
+          as="a"
+          aria-label="Email"
+          href={`mailto:/${userData.mailAdress}`}
+          title="Email"
+        >
+          <FaEnvelope />
         </Button>
       )}
     </NavbarLinks>

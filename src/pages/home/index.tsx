@@ -23,6 +23,7 @@ import {
   ProjectsAreaContent,
   ProjectAreaWrapperColumns,
 } from "./style";
+const myMail = "andryws.gseixas@gmail.com"
 
 export const Home = (): JSX.Element => {
   return (
@@ -34,9 +35,9 @@ export const Home = (): JSX.Element => {
               Criando experiências por meio da tecnologia{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Sou estudante de programação Full Stack na Kenzie Academy Brasil,
+              Sou um Desenvolvedor Full Stack sempre em busca de mais conhecimento,
               participei de diversos projetos resolvendo problemas de alto nível
-              e desenvolvendo hard e soft skills.
+              e desenvolvendo hard e soft skills continuamente.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos" title="Realizações">
@@ -77,10 +78,11 @@ export const Home = (): JSX.Element => {
               <Text as="h2" type="heading4" color="grey1">
                 Vamos trocar uma ideia?
               </Text>
+              
               <Text as="p" type="body1" color="grey2">
                 No linkedIn sempre estou compartilhando meus processos diários
-                para desenvolver esses projetos e estou disposto a trocar
-                algumas ideias por lá.
+                para desenvolver esses e novos projetos, estou disposto a trocar
+                algumas ideias por lá também ou através do email <a href="mailto:${emailAddress}" title="Contato email">profissional</a>.
               </Text>
               <Button
                 type="primary"
@@ -117,8 +119,8 @@ export const Home = (): JSX.Element => {
               <Text type="body1" color="grey6">
                 <p style={{ color: "blue" }}>
                   Sou um amante da tecnologia na qual tenho estudado com todo
-                  afinco nos últimos 9 meses em busca de aprendizado e
-                  utilização no mercado.
+                  afinco nos últimos 15 meses em busca de aprendizado e
+                  utilização no mercado web full stack.
                 </p>
               </Text>
               <div>
