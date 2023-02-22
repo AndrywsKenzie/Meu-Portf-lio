@@ -6,11 +6,11 @@ import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
 import { FaImages, FaVuejs } from "react-icons/fa";
 import { SiExpress, SiPostgresql, SiTypescript } from "react-icons/si";
-import { FaDocker } from "react-icons/fa";
+import { FaDocker,FaDatabase,FaCode } from "react-icons/fa";
 
 export const stackData = [
   {
-    title: "HTML",
+    title: "HTML5",
     img: imgHTML,
   },
   {
@@ -18,12 +18,8 @@ export const stackData = [
     img: imgCSS,
   },
   {
-    title: "JS",
+    title: "JavaScript",
     img: imgJS,
-  },
-  {
-    title: "Node JS",
-    img: imgNode,
   },
   {
     title: "Styled Components",
@@ -33,9 +29,18 @@ export const stackData = [
     title: "React JS",
     img: imgReact,
   },
+  {
+    title: "React JS",
+    img: FaCode,
+  },
+  {
+    title: "Node JS",
+    img: imgNode,
+  },
   { title: "Docker", img: FaDocker },
   /*{ title: "Vuejs", img: FaVuejs },*/
   { title: "TypeScript", img: SiTypescript },
+  { title: "SQL Server", img: FaDatabase },
   { title: "PostgreSql", img: SiPostgresql },
   { title: "Express", img: SiExpress },
 ];
