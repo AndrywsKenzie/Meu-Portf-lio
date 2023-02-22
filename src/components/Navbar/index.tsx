@@ -107,7 +107,7 @@ export const NavLinks = (): JSX.Element => {
           target="_blank"
           as="a"
           aria-label="Email"
-          href={`mailto:/${userData.mailAdress}`}
+          href={`mailto:${userData.mailAdress}`}
           title="Email"
         >
           <FaEnvelope />
